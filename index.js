@@ -44,8 +44,8 @@ app.use("/api/user", userRouter);
 
 
 // Front-end
-const viewsRouter = require("./routes/viewRouters/viewRouter");
-app.use("/", viewsRouter);
+// const viewsRouter = require("./routes/viewRouters/viewRouter");
+// app.use("/", viewsRouter);
 
 
 /*
