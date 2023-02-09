@@ -121,7 +121,7 @@ async function updateOneNaruto(req, res) {
         //     payload: updatedMon
         // })
 
-        res.redirect(`/oneNar/${updatedNar.name}`);
+        res.redirect(`https://naruto-85yv.onrender.com/oneNar/${updatedNar.name}`);
     } catch (error) {
         // server-side
         console.log(`updateOneNaruto: ${error}`);
